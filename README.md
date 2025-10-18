@@ -113,6 +113,4 @@ jupyter notebook Denis_Mitali_Parkinson_Voice_Analysis.ipynb
 
 ---
 
-### Author:## 
-
-Denis Mitali.
+### Author: Denis Mitali
