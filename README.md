@@ -33,12 +33,12 @@ The goal was to compare **traditional ML approaches (Scikit-learn)** with **deep
 
 | Model | Accuracy | Precision | Recall | F1-score | ROC-AUC | Training Time (s) |
 |-------|-----------|------------|---------|-----------|----------|-------------------|
-| **Stacking Classifier** | **0.9029** | **0.9041** | **0.9029** | **0.9034** | **0.9720** | 21.63 |
-| **XGBoost (Weighted)** | 0.8996 | 0.9001 | 0.8996 | 0.8998 | 0.9750 | 0.47 |
-| **Balanced Random Forest** | 0.8826 | 0.8827 | 0.8826 | 0.8826 | 0.9538 | 2.41 |
-| **Functional API (tf.data)** | 0.8536 | 0.8591 | 0.8536 | 0.8551 | 0.9353 | 25.53 |
-| **Sequential Neural Network** | 0.8434 | 0.8537 | 0.8434 | 0.8457 | 0.9203 | 21.64 |
-| **Support Vector Machine (SVM)** | 0.7311 | 0.7733 | 0.7311 | 0.7370 | 0.8282 | 4.00 |
+| **Stacking Classifier** | **0.9029** | **0.9041** | **0.9029** | **0.9034** | **0.9720** | 27.63 |
+| **XGBoost (Weighted)** | 0.8996 | 0.9001 | 0.8996 | 0.8998 | 0.9750 | 0.7 |
+| **Balanced Random Forest** | 0.8826 | 0.8827 | 0.8826 | 0.8826 | 0.9538 | 2.16 |
+| **Functional API (tf.data)** | 0.8536 | 0.8591 | 0.8536 | 0.8551 | 0.9353 | 34.51 |
+| **Sequential Neural Network** | 0.8434 | 0.8537 | 0.8434 | 0.8457 | 0.9203 | 30.94 |
+| **Support Vector Machine (SVM)** | 0.7311 | 0.7733 | 0.7311 | 0.7370 | 0.8282 | 11.8|
 | **Logistic Regression (Baseline)** | 0.5515 | 0.5975 | 0.5515 | 0.5613 | 0.6086 | 0.08 |
 
 ---
